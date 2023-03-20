@@ -1,3 +1,7 @@
+#
+Coding with React and Sass.
+This is a clone of BairesDev ApplicantSite app (Test Lab section).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
