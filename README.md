@@ -1,7 +1,8 @@
 #
-Coding with React and Sass.
+
+Coding with [React](https://react.dev) and [Sass](https://sass-lang.com/).
 This is a clone of BairesDev ApplicantSite app (Test Lab section).
-Auxiliary libraries used: Material Icons and Material UI.
+Auxiliary libraries used: [Material Icons](https://www.npmjs.com/package/@material-ui/icons) and [Material UI](https://mui.com/material-ui/getting-started/overview/).
 This project took me 2 days to complete.
 
 # Getting Started with Create React App
