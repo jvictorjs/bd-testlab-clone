@@ -20,8 +20,8 @@ const Content = () => {
         <div className="content">
           <Tests />
         </div>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 };

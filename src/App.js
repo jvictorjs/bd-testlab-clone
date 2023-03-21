@@ -1,7 +1,6 @@
 import "./App.scss";
 import Header from "./components/Header";
 import Content from "./components/Content";
-import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +10,5 @@ function App() {
     </div>
   );
 }
-//<Footer />
 
 export default App;
