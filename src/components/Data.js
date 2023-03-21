@@ -1,0 +1,98 @@
+export const Data = [
+  {
+    title: "Advanced Logic (Advanced Problem Solving)",
+    duration: 45,
+    totalQuestions: 20,
+    isCompleted: false,
+  },
+  {
+    title: "Algorithms",
+    duration: 10,
+    totalQuestions: 10,
+    isCompleted: false,
+  },
+  {
+    title: "Coding Challenge - Backend development",
+    duration: 90,
+    totalQuestions: null,
+    isCompleted: false,
+  },
+  {
+    title: "Frontend",
+    duration: 45,
+    totalQuestions: 5,
+    isCompleted: false,
+  },
+  {
+    title: "HTML / CSS",
+    duration: 14,
+    totalQuestions: 14,
+    isCompleted: false,
+  },
+  {
+    title: "JavaScript",
+    duration: 10,
+    totalQuestions: 10,
+    isCompleted: false,
+  },
+  {
+    title: "JQuery",
+    duration: 10,
+    totalQuestions: 10,
+    isCompleted: false,
+  },
+  {
+    title: "Node",
+    duration: 10,
+    totalQuestions: 10,
+    isCompleted: false,
+  },
+  {
+    title: "Object Oriented Programming (OOP)",
+    duration: 8,
+    totalQuestions: 8,
+    isCompleted: false,
+  },
+  {
+    title: "Quick Backend",
+    duration: 15,
+    totalQuestions: 1,
+    isCompleted: false,
+  },
+  {
+    title: "React",
+    duration: 15,
+    totalQuestions: 14,
+    isCompleted: true,
+  },
+  {
+    title: "English",
+    duration: 18,
+    totalQuestions: 18,
+    isCompleted: true,
+  },
+  {
+    title: "Logic (Problem Solving)",
+    duration: 25,
+    totalQuestions: 20,
+    isCompleted: true,
+  },
+  {
+    title: "Practical Skills",
+    duration: 25,
+    totalQuestions: 20,
+    isCompleted: true,
+  },
+  {
+    title: "Predictive Index Behavioral Assessment (PIBA)",
+    duration: 5,
+    totalQuestions: 1,
+    isCompleted: true,
+  },
+  {
+    title: "Situational Questions",
+    duration: 30,
+    totalQuestions: 19,
+    isCompleted: true,
+  },
+];

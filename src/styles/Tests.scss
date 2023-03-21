@@ -1,0 +1,162 @@
+@import "./colors";
+@import "./mixins";
+
+.tests-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+
+  .search-bar {
+    width: 400px;
+    .search-icon {
+      cursor: pointer;
+    }
+  }
+
+  .border-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    gap: 28px;
+
+    .left-border {
+      display: block;
+      .left-border-start {
+        @include test-left-border;
+        background-color: #0272b1;
+      }
+      .left-border-completed {
+        @include test-left-border;
+        background-color: $color-success;
+      }
+    }
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding: 4px 0;
+      gap: 16px;
+
+      .assessment-information {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .title {
+          font-size: 16px;
+          font-weight: 600;
+          color: $color-primary-dark;
+        }
+        .metadata {
+          @include flex-center;
+          align-items: center;
+          gap: 8px;
+          margin: 3px 0;
+
+          .duration {
+            @include flex-center;
+            font-size: 12px;
+            color: $color-success;
+            gap: 4px;
+            .duration-icon {
+              height: 12px;
+              width: 12px;
+              margin-right: 5px;
+            }
+          }
+          .total-questions {
+            @include flex-center;
+            font-size: 12px;
+            color: $color-text;
+            .indicator {
+              margin-right: 8px;
+              width: 6px;
+              height: 6px;
+              border-radius: 6px;
+              background-color: $color-neutral-250;
+            }
+          }
+        }
+      }
+
+      .action {
+        .button-completed {
+          @include flex-center;
+          justify-content: center;
+          flex-direction: row;
+          align-items: center;
+          box-sizing: border-box;
+          position: relative;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          outline: none;
+          border: none;
+          -webkit-tap-highlight-color: transparent;
+          white-space: nowrap;
+          text-decoration: none;
+          vertical-align: baseline;
+          text-align: center;
+          margin: 0;
+          min-width: 64px;
+          line-height: 36px;
+          padding: 0 16px;
+          border-radius: 4px;
+          overflow: visible;
+          font-size: 14px;
+          min-width: 150px !important;
+          box-shadow: 0 0 0 0 #0003, 0 0 0 0 #00000024, 0 0 0 0 #0000001f;
+          font-weight: 400;
+          color: $color-success;
+          background: $color-success-light 0 0 no-repeat padding-box !important;
+          border-radius: 0;
+          opacity: 1 !important;
+          .check-icon {
+            height: 18px;
+            width: 18px;
+            margin-right: 5px;
+          }
+        }
+        .button-start {
+          cursor: pointer;
+          transition: background-color 0.25s ease-in-out, color 0.2s ease-in-out;
+          box-sizing: border-box;
+          position: relative;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          outline: none;
+          border: none;
+          -webkit-tap-highlight-color: transparent;
+          display: inline-block;
+          white-space: nowrap;
+          text-decoration: none;
+          vertical-align: baseline;
+          text-align: center;
+          margin: 0;
+          min-width: 64px;
+          line-height: 36px;
+          padding: 0 16px;
+          border-radius: 4px;
+          overflow: visible;
+          font-size: 14px;
+          min-width: 150px !important;
+          box-shadow: 0 0 0 0 #0003, 0 0 0 0 #00000024, 0 0 0 0 #0000001f;
+          font-weight: 400;
+          color: #fff;
+          background-color: #0272b1;
+          border-radius: 0;
+          opacity: 1 !important;
+        }
+        .button-start:hover {
+          background: black 0 0 no-repeat padding-box !important;
+        }
+      }
+    }
+  }
+}

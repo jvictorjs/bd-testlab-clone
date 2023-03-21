@@ -1,6 +1,8 @@
 #
 Coding with React and Sass.
 This is a clone of BairesDev ApplicantSite app (Test Lab section).
+Auxiliary libraries used: Material Icons and Material UI.
+This project took me 2 days to complete.
 
 # Getting Started with Create React App
 
